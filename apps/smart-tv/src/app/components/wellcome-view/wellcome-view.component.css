@@ -1,0 +1,19 @@
+.wellcome {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 100px;
+  margin: 15px;
+}
+h2 {
+  color: red;
+  margin-top: 40px;
+  font-size: 40px;
+}

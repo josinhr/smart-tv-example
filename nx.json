@@ -12,9 +12,17 @@
   "npmScope": "smart-tv-example",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "MDg1YmEyODQtMzE3ZS00N2ViLThkNzgtNWExNDBlOTJhYWM1fHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
@@ -24,7 +32,9 @@
     },
     "smart-tv-e2e": {
       "tags": [],
-      "implicitDependencies": ["smart-tv"]
+      "implicitDependencies": [
+        "smart-tv"
+      ]
     }
   }
 }

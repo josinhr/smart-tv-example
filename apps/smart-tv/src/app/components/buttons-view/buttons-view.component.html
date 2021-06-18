@@ -1,0 +1,10 @@
+<h1>Hola José</h1>
+
+<div class="buttons-group">
+  <smart-tv-example-standar-button
+    *ngFor="let app of applications; let i = index"
+    [class.focus]="index === i"
+    [imageSource]="app"
+  >
+  </smart-tv-example-standar-button>
+</div>

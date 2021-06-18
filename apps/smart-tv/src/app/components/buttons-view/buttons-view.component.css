@@ -1,0 +1,16 @@
+smart-tv-example-standar-button.focus {
+  background-color: #006bc0;
+}
+
+.buttons-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  margin: 20px;
+  color: white;
+  font-size: xxx-large;
+}

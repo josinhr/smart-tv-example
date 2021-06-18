@@ -1,6 +1,7 @@
 {
   "version": 1,
   "cli": {
+    "analytics": "228a9ff3-973b-488a-be10-d78968d8eb4e",
     "defaultCollection": "@nrwl/angular"
   },
   "defaultProject": "smart-tv",
@@ -50,7 +51,7 @@
               "apps/smart-tv/src/favicon.ico",
               "apps/smart-tv/src/assets"
             ],
-            "styles": ["apps/smart-tv/src/styles.css"],
+            "styles": ["./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css", "apps/smart-tv/src/styles.css"],
             "scripts": []
           },
           "configurations": {
