@@ -39,7 +39,7 @@
     "@nrwl/angular": "12.5.9",
     "rxjs": "7.3.0",
     "rxjs-observe": "^2.1.6",
-    "tensorflow-web-gesture": "1.0.11",
+    "tensorflow-web-gesture": "1.1.0",
     "tslib": "^2.0.0",
     "zone.js": "0.11.4"
   },
