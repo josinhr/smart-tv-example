@@ -1,15 +1,15 @@
 <router-outlet></router-outlet>
-
-<div id="container" class="video">
-  <video
-    #videoElement
-    autoplay="true"
-    id="videoElement"
-    width="320"
-    height="100"
-  ></video>
+<div class="gesture-container">
+  <div id="container" class="video">
+    <video
+      #videoElement
+      autoplay="true"
+      id="videoElement"
+      width="340"
+      height="240"
+    ></video>
+  </div>
+  <tensorflow-web-gesture-gesture-feedback
+    class="feedback"
+  ></tensorflow-web-gesture-gesture-feedback>
 </div>
-
-<tensorflow-web-gesture-gesture-feedback
-  class="feedback"
-></tensorflow-web-gesture-gesture-feedback>

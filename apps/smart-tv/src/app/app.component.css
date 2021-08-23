@@ -4,18 +4,20 @@
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg); /* Safari and Chrome */
   -moz-transform: rotateY(180deg); /* Firefox */
-  position: absolute;
-  z-index: -100;
-  bottom: 0;
-  right: 0;
-  padding: 10px;
 }
 .feedback {
-  opacity: 60%;
-  width: 50px;
+  width: 80px;
+}
+
+.gesture-container {
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: -100;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  background-color: white;
   padding: 20px;
+  border: 7px solid #727272;
+  border-radius: 10px 10px 10px 10px;
 }
