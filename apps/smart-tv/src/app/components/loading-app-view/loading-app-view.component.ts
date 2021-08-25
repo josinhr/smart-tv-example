@@ -19,10 +19,11 @@ export class LoadingAppViewComponent implements OnDestroy {
     private location: Location
   ) {
     this.name = this._Activatedroute.snapshot.paramMap.get('app-name');
-
-    this.handGestureService.subscribers.left$.subscribe(() => {
-      this.location.back();
-    });
+    this.subscritors.push(
+      this.handGestureService.subscribers.left$.subscribe(() => {
+        this.location.back();
+      })
+    );
   }
   ngOnDestroy(): void {
     this.subscritors.forEach((s) => s.unsubscribe());
